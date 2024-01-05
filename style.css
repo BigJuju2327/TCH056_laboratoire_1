@@ -3,3 +3,86 @@ table, tr, th, td {
     border-collapse: collapse; 
     padding: 5px;
     }
+    img {
+        border: 2px solid #3498db; /* Bordure de votre choix */
+        opacity: 0.9; /* Niveau de transparence de 90% */
+        transition: border 0.3s ease-in-out, transform 0.3s ease-in-out;
+      }
+      
+      img:hover {
+        transform: scale(1.1); /* Mise à l'échelle de 1.1 au survol */
+      }
+      
+      /* Mise en page */
+      .container {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+      }
+      
+      /* Autres */
+      body {
+        background: linear-gradient(to right, #ff8c00, #ff0080); /* Gradient de couleur de fond */
+      }
+      
+      /* Indentation pour le contenu entre les en-têtes */
+      .indentation {
+        margin-left: 5%;
+      }
+      
+      /* Tableau */
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      table td {
+        background-color: #ffffff; /* Couleur de fond des cellules du tableau */
+      }
+      
+      table td:hover {
+        background-color: #d3d3d3; /* Couleur de fond au survol */
+      }
+      
+      table caption {
+        text-transform: uppercase; /* Transforme le titre du tableau en majuscules */
+      }
+      
+      /* Hyperliens */
+      a:hover {
+        font-weight: bold; /* Texte en gras au survol des hyperliens */
+      }
+      
+      /* Descripteurs en gras et italique */
+      strong {
+        font-style: italic;
+        font-weight: bold;
+      }
+      
+      /* Formulaire */
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      form * {
+        margin-bottom: 5px;
+      }
+      
+      /* Éléments de saisie du formulaire */
+      .form-input {
+        font-family: Arial;
+        font-size: 14px;
+        opacity: 0.8;
+        width: 50%;
+      }
+      
+      /* Boutons */
+      button {
+        width: 100px;
+      }
+      
+      /* Conteneurs sémantiques */
+      header, section, footer {
+        /* Ajoutez le style approprié pour les conteneurs sémantiques */
+      }   
